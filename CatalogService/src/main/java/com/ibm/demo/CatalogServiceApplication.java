@@ -39,7 +39,7 @@ public class CatalogServiceApplication {
 
     private void getAllProducts() {
         List<Product> products = this.repository.findAll();
-        logger.info("Number of customers: " + products.size());
+        logger.info("Number of products: " + products.size());
     }
 
 }
